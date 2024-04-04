@@ -2,14 +2,45 @@
 <html>
     <head>
         <title>My first web page</title>
+        <style>
+            img {
+                width: 200px;
+                height: 300px;
+                object-fit: cover;
+            }
+        </style>
     </head>
 
     <body>
         <!-- elements on web page go here> -->
+        <!-- a - anchor element; href - hypertext reference; every a should have href -->
+        
+        <a href="htps://www.google.com">
+            <img src="images/OIP.jpeg">
+        </a>
+        <a href="https://www.google.com">My search engine</a>
+        <a href="images/OIP.jpeg" download>My monkey</a>
+        <a href="#section-html">HTML</a>
+        <a href="#section-css">CSS</a>
+        <a href="mailto:test@testmail.com">email us here</a>
         <!-- image element cannot have a child element; src - path to image -->
         <img src="/images/OIP.jpeg" alt="monkey see monkey do">
         <!-- add text using p element tag -->
         <p>@gurdeep101</p>
-        <p>i'm learning HTML and i think some monkeys are cute</p>
+        <p>i'm learning &ltHTML&gt; and i think some monkeys are funky &copy;</p>
+        <h2 id="section-html">HTML</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut repellendus quaerat quasi, quidem ex, dolorem&nbsp;labore hic doloribus quam vitae quo placeat suscipit temporibus, voluptatem aperiam magni architecto dignissimos tempora nostrum. Dolorum quam incidunt reiciendis quisquam quidem placeat, quis repellat, aliquam obcaecati, dignissimos quibusdam dolores ratione voluptates nostrum ut aperiam!</p>
+        <a href="#">Jump to top</a>
+        <!-- a - anchor element; href - hypertext reference -->
+        <!-- use target="_blank" for opening in new tab -->
+        <p>
+            <a href="www.google.com" target="_blank">Google me here</a>
+        </p>
+        
+        <!-- give unique id to element to create fragment / sub-section -->
+        <h2 id="section-css">CSS</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae earum, porro debitis ut sed praesentium tenetur, odit ipsum nobis explicabo accusamus iste minus! Suscipit culpa aspernatur nulla cumque! Illum in laboriosam laudantium aut quasi. Amet aliquid nemo magni minima? Provident accusantium quo voluptate voluptatibus exercitationem aperiam inventore facere aut voluptatum veritatis, ducimus obcaecati officia aspernatur odit! Deserunt cumque eveniet unde libero veniam perferendis. Excepturi expedita ipsam ab consectetur reiciendis earum, id maxime vitae ducimus consequuntur quo mollitia et quam, temporibus autem dolore suscipit officia repudiandae aliquid impedit dolorem. Nesciunt illo quae sapiente corporis rem natus fuga ex? Non reprehenderit magni iure id a esse sit ipsam, impedit dolorem et culpa ut explicabo delectus repellendus eum alias asperiores quisquam autem, recusandae pariatur aliquid dolor! Cum perspiciatis ab tempora officiis optio, ex corrupti pariatur! Dignissimos reiciendis earum commodi consectetur illum perferendis, suscipit a. Aperiam aut unde quam natus architecto vel in eveniet dolore magnam voluptates sunt accusamus laboriosam cum alias, reprehenderit obcaecati ullam consequatur harum ratione illo sint. Assumenda, aliquid vero inventore, omnis, numquam debitis quasi quo provident cupiditate similique temporibus? Laudantium ab assumenda quibusdam delectus dicta quod nulla et vero, iure quaerat in alias quisquam quos perspiciatis numquam. Cupiditate, ullam dolorum?</p>
+        <a href="#">Jump to top</a>
+        <img src="images/basketball.jpeg" alt="basketball going throug the net">
     </body>
 </html>
