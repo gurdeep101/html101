@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    background-color: #3270c2;
+
+}
+
+body {
+    background-color: #313131;
+}
+
+.bg-orange {
+    background-color: orange;
+}
+
+#bg-green {
+    background-color: green;
+}
+
+a[target='_blank'] {
+    background-color: rgb(224, 99, 120);
+    padding: 10px;
+}
+

@@ -1,0 +1,32 @@
+/* html {
+    background: url(https://images.pexels.com/photos/12704502/pexels-photo-12704502.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) center center fixed no-repeat;
+    background-size: cover;
+    background-repeat: repeat-x;
+    background-position: 0 0;
+} */
+
+body {
+    background-color: #414141;
+}
+
+h1 {
+    color: aliceblue;
+    background-color: #de4d05;
+    text-align: center;
+    padding: 20px;
+    text-decoration: wavy;
+    border: groove 8px #ededed;
+    margin: 20px;
+}
+
+span {
+    font-size: 60px;
+    color: #ededed;
+    text-align: center;
+}
+
+p {
+    background-color: aqua;
+    font-size: large;
+    display: inline-block;
+}
