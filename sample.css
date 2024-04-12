@@ -1,0 +1,31 @@
+/* element selector */
+h1 {
+    color: red;
+}
+
+/* id selector */
+/* use RGB for color selection */
+/* rgba for transparency; 4th number */
+.blue {
+    color: rgb(0, 0, 0);
+}
+/* use hexadecimals for color selection */
+body {
+    color: #d42525;
+}
+
+/* diff units in box model */
+/* pixel
+% - width of screen 10%, 
+em - scales of body font; fontsize=16; 1em = 16px
+rem - scales of doc font size
+*/
+
+.box {
+    height: 100px;
+    width: 100px;
+    padding: 5px;
+    margin: 50px;
+    border: 5px solid black;
+    background-color:rgb(30, 171, 210);
+}

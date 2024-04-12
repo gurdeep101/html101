@@ -1,0 +1,91 @@
+HTML element
+* Basic building blocks to create the structure and content of web pages
+* allow developers to define headings, paragraphs, links, images, etc.
+* consist of start tag, content and end tag
+* elements can be nested within 1 another
+* div - division element to group other elements such as h1, p, etc.
+* elements can have additional attributes
+    e.g. <img src = 'path.jpg', alt = 'alt text here'>
+
+HTML class
+* an attribute that can be applied to 1 or more html elements
+* each class has a class name
+* multiple class names are possible
+* class names are used as hooks for CSS styles
+* e.g. <div class='container'> 
+    in css file 
+        .container {
+            padding=10px;
+            background-color=#f0f0f
+        }
+
+HTML ID
+* attribute that uniquely identifies an element within a document
+* must be unique within the entire html document* 
+
+<div id="header">
+    <h1>Welcome to My Website</h1>
+</div>
+
+<p id="paragraph1">This is a paragraph.</p>
+
+<a href="#footer">Jump to Footer</a>
+
+<div id="footer">
+    <p>Contact Us</p>
+</div>
+
+CSS Syntax & selector rules
+* css uses specificity
+* CSS takes the last defined style for the element
+* element selector has lowest priority
+* class selector above element; ID is superior
+* inline selector overwrites everything
+
+* most html elements have some default styles 
+    * e.g. margin for <h1>; font for <p>
+
+* selector {
+    property1: value1;
+    property2 : value2;
+}
+
+Element Selector
+* h1, etc.
+* any html element (h1), class or ID
+* property - color, size, etc.
+* value - blue, green, etc.
+
+Class Selector
+* can have multiple classes and separate CSS styles for each class
+* using css we can combine the classes in the html element
+* e.g.
+    .btn {
+        padding: 10px;
+        color: white;
+    }
+    .btn-2 {
+        background-color: purple
+    }
+
+    .btn-3 {
+        background-color: blue
+    }
+
+now combine base class and specific class 
+    <button class='btn btn-1'>Buton1</button>
+    <button class='btn btn-2'>Buton2</button>
+    <button class='btn btn-3'>Buton3</button>
+
+* hexadecimal color selection
+    * goes from 0 to 15
+    * 3 groups of 2 alphabets
+    * representing RGB; scale from 0 to F
+
+* use of RGB for color selection
+* hsl for color selection
+    h - hue 0-360
+    s - saturation 0-100% how colorful; 100% = max
+    l - lightness 0-100% how light; 100% = max lightness
+    a - alpha or tranparent; 0-1
+
