@@ -3,13 +3,13 @@
     padding: 0;
 }
 
-h1 {
-    background-color: #3270c2;
+h1, h4 {
+    background-color: #8ea4c1;
 
 }
 
 body {
-    background-color: #313131;
+    background-color: #3fa7b5;
 }
 
 .bg-orange {
@@ -20,8 +20,19 @@ body {
     background-color: green;
 }
 
+ul li {
+    background-color: whitesmoke;
+}
+
 a[target='_blank'] {
     background-color: rgb(224, 99, 120);
     padding: 10px;
 }
 
+header > a {
+    background-color: #3270c2;
+}
+
+img + p {
+    background-color: greenyellow;
+}

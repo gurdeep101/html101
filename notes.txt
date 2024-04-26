@@ -1,3 +1,5 @@
+shift + ! for emmet abbreviation
+
 HTML element
 * Basic building blocks to create the structure and content of web pages
 * allow developers to define headings, paragraphs, links, images, etc.
