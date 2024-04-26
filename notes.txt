@@ -26,7 +26,7 @@ HTML ID
 HTML span
 * in-line element used to group inline elements and apply styles to a specific section of text within a larger block of text
 * <div> elements create a line break and take up full width
-* h1 is also a block level element
+* h1, p are block level element
 * span only occupies space necessary for its content; called in-line element
 
 <div id="header">
