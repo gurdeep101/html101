@@ -1,0 +1,33 @@
+* {
+    margin: 5px;
+    padding: 5px;
+}
+
+body {
+    background-color: #d6d7c9;
+    color: olivedrab;
+}
+
+h1:hover {
+    background-color: orange;
+}
+
+button:hover {
+    background-color: orange;
+    padding: 10px;
+}
+
+div:first-child{
+    background-color: greenyellow;
+}
+
+h1::after {
+    content: "AFTER !!";
+    background-color: greenyellow;
+}
+
+p::first-letter {
+    background-color: aqua;
+    font: size 50px;
+    padding: 8px;
+}
